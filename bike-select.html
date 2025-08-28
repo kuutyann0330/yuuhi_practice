@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>自転車を探す</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/piclist.css">
+    <link rel="stylesheet" href="./css/bike-select.css">
+
+    
+  <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheetF">
+  <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/earlyaccess/harenosoraminncho.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <div class="nav-GlobalHeader">
+        <header>
+            <div class="container">
+                <!-- 左側：店のロゴと店名 -->
+                <div class="header_top">
+                    <a href="index_web.html"><img src="./HP_img/chatGPT_mini-logo.png" alt="ゆうひのロゴ"
+                            class="logo_img"></a>
+                    <a href="index_web.html"><img src="./HP_img/nav_fontlogo.PNG" alt="ゆうひ自転車"
+                            class="logonames_img"></a>
+
+
+                    <form method="get" action="#" class="search_container">
+                        <input type="text" size="25" placeholder="キーワード検索">
+                        <input type="submit" value="検索">
+                    </form>
+                </div>
+
+                <div>
+                    <!-- ヘッダー下のナビゲーションバー -->
+                    <nav class="header-nav">
+                        <ul class="ul_nav">
+                            <li class="li_nav"><a href="./bike-select.html">自転車を探す</a></li>
+                            <li class="li_nav"><a href="./service-list.html">サービス</a></li>
+                            <li class="li_nav"><a href="./shop-search.html">お店を探す</a></li>
+                            <li class="li_nav"><a href="./company.html">企業詳細</a></li>
+                            <li class="li_nav"><a href="./Inquiries.HTML">お問い合わせ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- ここまでヘッダー -->
+    <!-- ここからメインメイン -->
+    <div class="top_img-container">
+        <img src="./HP_img/searchshop-top-img.jpg" alt="自転車販売店" class="top_img">
+        <div class="overlay-text">商　品　一　覧</div>
+    </div>
+
+    <!-- ここから商品一覧 -->
+    <!-- おすすめ欄   -->
+    <div class="contentbox">
+
+        <!-- grid_list -->
+        <div class="grid_list">
+            <h2 class="item_title">シティサイクル</h2>
+            <div class="grid_items">
+                <!-- 1個目 -->
+                <div class="grid_item no1">
+                    <img src="./HP_img/白いロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">¥15,000</p>
+                </div>
+                <!-- 2個目 -->
+                <div class="grid_item no2">
+                    <img src="./HP_img/オレンジロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">サンライドクロス</div>
+                    <p class="grid_item text">スポーティーなデザインと快適な乗り心地をあなたに！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 3個目 -->
+                <div class="grid_item no3">
+                    <img src="./HP_img/青赤ロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">プロギアロードR3</div>
+                    <p class="grid_item text">軽量アルミフレームと信頼のシマノ製ギア搭載！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 4個目 -->
+                <div class="grid_item no4">
+                    <img src="./HP_img/黒ロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 5個目 -->
+                <div class="grid_item no5">
+                    <img src="./HP_img/クラシック.png" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 6個目 -->
+                <div class="grid_item no6">
+                    <img src="./HP_img/黒赤ロードバイク.avif" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">タフネスECOクロス</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 7個目 -->
+                <div class="grid_item no7">
+
+                    <img src="./HP_img/白いロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">画像不足</div>
+                    <p class="grid_item text">画像が足りないので同様</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- grid_list -->
+        <div class="grid_list">
+            <h2 class="item_title">スポーツバイク</h2>
+            <div class="grid_items">
+                <!-- 1個目 -->
+                <div class="grid_item no1">
+                    <img src="./HP_img/白いロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 2個目 -->
+                <div class="grid_item no2">
+                    <img src="./HP_img/オレンジロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">サンライドクロス</div>
+                    <p class="grid_item text">スポーティーなデザインと快適な乗り心地をあなたに！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 3個目 -->
+                <div class="grid_item no3">
+                    <img src="./HP_img/青赤ロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">プロギアロードR3</div>
+                    <p class="grid_item text">軽量アルミフレームと信頼のシマノ製ギア搭載！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 4個目 -->
+                <div class="grid_item no4">
+                    <img src="./HP_img/黒ロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 5個目 -->
+                <div class="grid_item no5">
+                    <img src="./HP_img/クラシック.png" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 6個目 -->
+                <div class="grid_item no6">
+                    <img src="./HP_img/黒赤ロードバイク.avif" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">タフネスECOクロス</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 7個目 -->
+                <div class="grid_item no7">
+
+                    <img src="./HP_img/白いロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">画像不足</div>
+                    <p class="grid_item text">画像が足りないので同様</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- grid_list -->
+        <div class="grid_list">
+            <h2 class="item_title">キッズサイクル</h2>
+            <div class="grid_items">
+                <!-- 1個目 -->
+                <div class="grid_item no1">
+                    <img src="./HP_img/白いロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 2個目 -->
+                <div class="grid_item no2">
+                    <img src="./HP_img/オレンジロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">サンライドクロス</div>
+                    <p class="grid_item text">スポーティーなデザインと快適な乗り心地をあなたに！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 3個目 -->
+                <div class="grid_item no3">
+                    <img src="./HP_img/青赤ロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">プロギアロードR3</div>
+                    <p class="grid_item text">軽量アルミフレームと信頼のシマノ製ギア搭載！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 4個目 -->
+                <div class="grid_item no4">
+                    <img src="./HP_img/黒ロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 5個目 -->
+                <div class="grid_item no5">
+                    <img src="./HP_img/クラシック.png" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 6個目 -->
+                <div class="grid_item no6">
+                    <img src="./HP_img/黒赤ロードバイク.avif" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">タフネスECOクロス</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 7個目 -->
+                <div class="grid_item no7">
+
+                    <img src="./HP_img/白いロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">画像不足</div>
+                    <p class="grid_item text">画像が足りないので同様</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- grid_list -->
+        <div class="grid_list">
+            <h2 class="item_title">電動自転車</h2>
+            <div class="grid_items">
+                <!-- 1個目 -->
+                <div class="grid_item no1">
+                    <img src="./HP_img/白いロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                 <!-- 2個目 -->
+                 <div class="grid_item no2">
+                    <img src="./HP_img/オレンジロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">サンライドクロス</div>
+                    <p class="grid_item text">スポーティーなデザインと快適な乗り心地をあなたに！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+               <!-- 3個目 -->
+               <div class="grid_item no3">
+                <img src="./HP_img/青赤ロードバイク.jpg" alt="" class="grid_item_pic">
+                <div class="grid_item tatle">プロギアロードR3</div>
+                <p class="grid_item text">軽量アルミフレームと信頼のシマノ製ギア搭載！</p>
+                <p class="grid_item price">￥15,000</p>
+            </div>
+                <!-- 4個目 -->
+                <div class="grid_item no4">
+                    <img src="./HP_img/黒ロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p> 
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 5個目 -->
+                <div class="grid_item no5">
+                    <img src="./HP_img/白いロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 6個目 -->
+                <div class="grid_item no6">
+                    <img src="./HP_img/黒赤ロードバイク.avif" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">タフネスECOクロス</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 7個目 -->
+                <div class="grid_item no7">
+
+                    <img src="./HP_img/ヘルメット.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">エアフローギア</div>
+                    <p class="grid_item text">通気性に優れた多孔質デザインで長時間の運転も快適。安全性と快適さの両立しました。</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- その他 -->
+        <!-- grid_list -->
+        <div class="grid_list">
+            <h2 class="item_title">その他関連商品</h2>
+            <div class="grid_items">
+                <!-- 1個目 -->
+                <div class="grid_item no1">
+                    <img src="./HP_img/白いロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+               <!-- 2個目 -->
+               <div class="grid_item no2">
+                <img src="./HP_img/オレンジロードバイク.jpg" alt="" class="grid_item_pic">
+                <div class="grid_item tatle">サンライドクロス</div>
+                <p class="grid_item text">スポーティーなデザインと快適な乗り心地をあなたに！</p>
+                <p class="grid_item price">￥15,000</p>
+            </div>
+                  <!-- 3個目 -->
+                  <div class="grid_item no3">
+                    <img src="./HP_img/青赤ロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">プロギアロードR3</div>
+                    <p class="grid_item text">軽量アルミフレームと信頼のシマノ製ギア搭載！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 4個目 -->
+                <div class="grid_item no4">
+                    <img src="./HP_img/黒ロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 5個目 -->
+                <div class="grid_item no5">
+                    <img src="./HP_img/白いロードバイク.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">ルナティック</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 6個目 -->
+                <div class="grid_item no6">
+                    <img src="./HP_img/黒赤ロードバイク.avif" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">タフネスECOクロス</div>
+                    <p class="grid_item text">最新型 ルナシリーズ 白を基調にしたスタイリッシュなモデルです！</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+                <!-- 7個目 -->
+                <div class="grid_item no7">
+
+                    <img src="./HP_img/ヘルメット.jpg" alt="" class="grid_item_pic">
+                    <div class="grid_item tatle">エアフローギア</div>
+                    <p class="grid_item text">通気性に優れた多孔質デザインで長時間の運転も快適。安全性と快適さの両立しました。</p>
+                    <p class="grid_item price">￥15,000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ここまでメイン -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ここからフッター -->
+    <footer id="yuuhi_footer">
+        <div class="footer-content">
+            <a href="index_web.html"><img src="./HP_img/nav_fontlogo.PNG" alt="ゆうひ自転車" class="footer_logo"></a>
+            <p class="footer-copy">&copy; 2025 自転車販売店 ゆうひ</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

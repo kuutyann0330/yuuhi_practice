@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>お問い合わせフォーム</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/footer.css">
+
+  <link rel="stylesheet" href="./css/contact.css">
+  <!-- 最初の見出しを調節する -->
+  <link rel="stylesheet" href="./css/title-call-style.css">
+</head>
+
+<body>
+  <div class="nav-GlobalHeader">
+    <header>
+      <div class="container">
+        <!-- 左側：店のロゴと店名 -->
+        <div class="header_top">
+          <a href="index_web.html"><img src="./HP_img/chatGPT_mini-logo.png" alt="ゆうひのロゴ" class="logo_img"></a>
+          <a href="index_web.html"><img src="./HP_img/nav_fontlogo.PNG" alt="ゆうひ自転車" class="logonames_img"></a>
+          <form method="get" action="#" class="search_container">
+            <input type="text" size="25" placeholder="キーワード検索">
+            <input type="submit" value="検索">
+          </form>
+        </div>
+
+        <div>
+          <!-- ヘッダー下のナビゲーションバー -->
+          <nav class="header-nav">
+            <ul class="ul_nav">
+              <li class="li_nav"><a href="./bike-select.html">自転車を探す</a></li>
+              <li class="li_nav"><a href="./service-list.html">サービス</a></li>
+              <li class="li_nav"><a href="./shop-search.html">お店を探す</a></li>
+              <li class="li_nav"><a href="./company.html">企業詳細</a></li>
+              <li class="li_nav"><a href="./Inquiries.html">お問い合わせ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </div>
+  <!-- ここまでヘッダー -->
+
+  <main>
+    <form method="post" action="送るメールアドレスを入れておく" enctype="text/plain" class="contact-form">
+
+      <h1>お問い合わせフォーム</h1>
+
+      <!-- 姓・名 -->
+      <div class="form-group name-section">
+        <label for="last_name" class="required">姓</label>
+        <input type="text" id="last_name" name="last_name" placeholder="山田" required />
+        <label for="first_name" class="required">名</label>
+        <input type="text" id="first_name" name="first_name" placeholder="太郎" required />
+      </div>
+
+      <!-- セイ・メイ -->
+      <div class="form-group name-section">
+        <label for="last_name_kana" class="required">セイ</label>
+        <input type="text" id="last_name_kana" name="last_name_kana" placeholder="ヤマダ" required />
+        <label for="first_name_kana" class="required">メイ</label>
+        <input type="text" id="first_name_kana" name="first_name_kana" placeholder="タロウ" required />
+      </div>
+
+      <!-- 郵便番号 -->
+      <div class="form-group">
+        <label for="postal_code" class="required">郵便番号</label>
+        <input type="text" id="postal_code" name="postal_code" placeholder="例：123-4567" pattern="^\d{3}-\d{4}$"
+          required />
+      </div>
+
+      <!-- 都道府県 -->
+      <div class="form-group">
+        <label for="prefecture" class="required">都道府県</label>
+        <select id="prefecture" name="prefecture" required>
+          <option value="">選択してください</option>
+          <option value="北海道">北海道</option>
+          <option value="青森県">青森県</option>
+          <option value="岩手県">岩手県</option>
+          <option value="宮城県">宮城県</option>
+          <option value="秋田県">秋田県</option>
+          <option value="山形県">山形県</option>
+          <option value="福島県">福島県</option>
+          <option value="茨城県">茨城県</option>
+          <option value="栃木県">栃木県</option>
+          <option value="群馬県">群馬県</option>
+          <option value="埼玉県">埼玉県</option>
+          <option value="千葉県">千葉県</option>
+          <option value="東京都">東京都</option>
+          <option value="神奈川県">神奈川県</option>
+          <option value="新潟県">新潟県</option>
+          <option value="富山県">富山県</option>
+          <option value="石川県">石川県</option>
+          <option value="福井県">福井県</option>
+          <option value="山梨県">山梨県</option>
+          <option value="長野県">長野県</option>
+          <option value="岐阜県">岐阜県</option>
+          <option value="静岡県">静岡県</option>
+          <option value="愛知県">愛知県</option>
+          <option value="三重県">三重県</option>
+          <option value="滋賀県">滋賀県</option>
+          <option value="京都府">京都府</option>
+          <option value="大阪府">大阪府</option>
+          <option value="兵庫県">兵庫県</option>
+          <option value="奈良県">奈良県</option>
+          <option value="和歌山県">和歌山県</option>
+          <option value="鳥取県">鳥取県</option>
+          <option value="島根県">島根県</option>
+          <option value="岡山県">岡山県</option>
+          <option value="広島県">広島県</option>
+          <option value="山口県">山口県</option>
+          <option value="徳島県">徳島県</option>
+          <option value="香川県">香川県</option>
+          <option value="愛媛県">愛媛県</option>
+          <option value="高知県">高知県</option>
+          <option value="福岡県">福岡県</option>
+          <option value="佐賀県">佐賀県</option>
+          <option value="長崎県">長崎県</option>
+          <option value="熊本県">熊本県</option>
+          <option value="大分県">大分県</option>
+          <option value="宮崎県">宮崎県</option>
+          <option value="鹿児島県">鹿児島県</option>
+          <option value="沖縄県">沖縄県</option>
+        </select>
+      </div>
+
+      <!-- 市町村 -->
+      <div class="form-group">
+        <label for="city" class="required">市町村</label>
+        <input type="text" id="city" name="city" placeholder="例：名古屋市中区" required />
+      </div>
+
+      <!-- 番地 -->
+      <div class="form-group">
+        <label for="address" class="required">番地・マンション名</label>
+        <input type="text" id="address" name="address" placeholder="例：1-2-3 マンション名101号室" required />
+      </div>
+
+      <!-- メールアドレス -->
+      <div class="form-group">
+        <label for="email" class="required">メールアドレス</label>
+        <input type="email" id="email" name="email" placeholder="example@example.com" required />
+      </div>
+
+      <!-- 電話番号 -->
+      <div class="form-group">
+        <label for="tel">電話番号</label>
+        <input type="tel" id="tel" name="tel" placeholder="例：090-1234-5678" />
+      </div>
+
+      <!-- お問い合わせ内容 -->
+      <div class="form-group message-section">
+        <label for="message" class="required">お問い合わせ内容</label>
+        <textarea id="message" name="message" placeholder="ご質問・ご要望などをご記入ください。" required></textarea>
+      </div>
+
+      <!-- 送信ボタン -->
+      <div class="button-wrapper">
+        <button type="submit">送信</button>
+      </div>
+
+    </form>
+  </main>
+
+
+
+
+  <!-- ここからフッター -->
+  <footer id="yuuhi_footer">
+    <div class="footer-content">
+      <a href="index_web.html"><img src="./HP_img/nav_fontlogo.PNG" alt="ゆうひ自転車" class="footer_logo"></a>
+      <p class="footer-copy">&copy; 2025 自転車販売店 ゆうひ</p>
+    </div>
+  </footer>
+</body>
+
+</html>
