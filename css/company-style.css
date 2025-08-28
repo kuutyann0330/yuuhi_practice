@@ -1,0 +1,107 @@
+.searchshop-list {
+    margin: 50px 0 50px 2%;
+}
+
+.top_img-container {
+    text-align: center;
+}
+
+/*文字を画像の上に持ってくるやつ　GPT*/
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+    white-space: nowrap;
+}
+.top_img-container {
+    position: relative;
+    width: 90vw;
+    max-width: 900px;
+    height: 50vw;
+    max-height: 500px;
+  
+    background-image: url('./HP_img/searchshop-top-img.jpg');
+    background-size: cover;      /* 画像を要素にフィットさせる */
+    background-position: center; /* 画像の中心を表示 */
+    background-repeat: no-repeat;
+    
+    margin: 0 auto;              /* 横中央寄せ */
+  }
+
+
+
+
+.top_img {
+    max-width: 900px;
+    max-height: 500px;
+
+    /* ナビゲーションバーが崩れるラインで画像縮小をやめてモバイル版に変える */
+    min-width: 480px;
+    min-height: 267px;
+
+    width: 90vw;
+    height: 50vw;
+}
+
+.top-contentsbox {
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+/* 会社概要を包括する要素 */
+.contentslist {
+    display: block;
+    margin: auto;
+    text-align: left;
+    max-width: 900px;
+    max-height: 500px;
+
+    min-width: 480px;
+
+    /* リスト数で先頭の数を調節 */
+    min-height: 400px;
+
+    width: 90vw;
+    height: 50vw;
+
+    /* background-color: aqua; */
+}
+
+.contentsbox {
+    padding: 10px 0px;
+
+}
+
+.label {
+    display: inline;
+    margin: 10px 0px;
+    border-bottom: solid 2px;
+
+    text-align: justify;
+}
+
+.value {
+    display: inline;
+
+}
+
+.title_top {
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+
+.title {
+    font-size: 30px;
+    padding: 30px 0px;
+    border-bottom: solid;
+
+}

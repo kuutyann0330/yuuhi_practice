@@ -1,0 +1,96 @@
+
+
+/* ここまでがヘッダー */
+
+/*メインメニュー*/
+
+
+/* トップ画面設定 */
+#main_menu {
+    /* トップ画像を真ん中に持ってくる */
+    text-align: center;
+}
+
+/* .top_img {
+    max-width: 900px;
+    max-height: 500px;
+
+    min-width: 480px;
+    min-height: 267px;
+
+    width: 90vw;
+    height: 50vw;
+
+    border-radius:20px;
+    border: solid 10px wheat ;
+} */
+
+
+
+/* ファイアフォックス サファリ使用不可 */
+
+/*ここまでスライドショーの仕組み*/
+
+
+/* おすすめ欄 */
+.top_content {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.div_recommendation {
+    margin: auto;
+    width: 180px;
+    height: 40px;
+    border-bottom: solid #cccccc;
+}
+
+.recommendation_titlebars {
+    display: inline;
+}
+
+/* .recommendation {
+    margin: auto;
+    padding-bottom: 20px;
+    font-family: "メイリオ";
+    display: block;
+    width: 250px;
+    border-bottom: 1px solid #ddd;
+}*/
+
+.ul_recommendation_list {
+    display: block;
+    margin: auto;
+    text-align: left;
+    max-width: 900px;
+    max-height: 500px;
+
+    min-width: 480px;
+    min-height: 267px;
+
+    width: 90vw;
+    height: 50vw;
+}
+
+ul {
+    font-size: 0;
+}
+
+ul li {
+    font-size: 16px;
+    /* 必要に応じて再設定 */
+}
+
+.li_recommendation_list {
+    display: inline-block;
+    max-width: 24%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    background-color: #cccccc;
+
+}
+
+.img_recommendation_list {
+    width: 100%;
+    max-height: 155px;
+}

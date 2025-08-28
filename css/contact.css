@@ -1,0 +1,117 @@
+.contact-form {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Yu Gothic", "Meiryo", sans-serif;
+}
+
+/* 見出し */
+.contact-form h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* 各フォームグループ */
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  /* スマホとか小さい画面で改行される */
+}
+
+/* ラベルは固定幅、左寄せ */
+.form-group>label {
+  flex: 0 0 120px;
+  font-weight: 600;
+  color: #333;
+  margin-right: 15px;
+  white-space: nowrap;
+}
+
+
+
+/* 入力欄の設定まとめて .form-group の> select*/
+.form-group>input[type="text"],
+.form-group>input[type="email"],
+.form-group>input[type="tel"],
+.form-group>select,
+.form-group>textarea {
+  /* フレックスで整える */
+  flex: 1 1 auto;
+  /* 文字とボックスとの余白 */
+  padding: 10px 12px;
+  font-size: 1rem;
+  /* ボックスの枠線の設定 */
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  /* 親と同じフぉンと */
+  font-family: inherit;
+}
+
+/* フォームのテキストボックス、e-mail、TEL select texteraeaが選択されたとき */
+.form-group>input[type="text"]:focus,
+.form-group>input[type="email"]:focus,
+.form-group>input[type="tel"]:focus,
+.form-group>select:focus,
+.form-group>textarea:focus {
+  /* 選択枠を薄い青にして元の線を消す消す */
+  border-color: #fd8041;
+  outline: none;
+}
+
+/* テキストエリアは高さ調整 */
+.form-group>textarea {
+  min-height: 120px;
+  max-height: 120px;
+  width: 100%;
+  /* 必要な幅に設定 */
+  resize: none;
+  /* リサイズ禁止 */
+}
+
+
+
+.name-section>label,
+.name-section>input {
+  flex-basis: auto;
+  margin-right: 15px;
+}
+
+/* 送信ボタン中央寄せ */
+.button-wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* ボタンの設定 */
+.button-wrapper>button {
+  /* ボタン色 */
+  background-color: #8f1454bc;
+  border: #fd8041;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 48px;
+  /* ボタンを角丸 */
+  border-radius: 8px;
+}
+
+/* クリックしようとしたら色変える */
+.button-wrapper>button:hover {
+  background-color: #ff0000;
+}
+
+
+/* お問い合わせフォームlabelの設定 */
+.message-section>label {
+  margin-bottom: 8px;
+
+}
+
+

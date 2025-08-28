@@ -1,0 +1,42 @@
+
+/* リスト表自体の横の余白をとる */
+.info_list{
+    display: block;
+    margin: auto;
+    text-align: left;
+    max-width: 900px;
+    max-height: 500px;
+
+    min-width: 480px;
+
+    /* リスト数で先頭の数を調節 */
+    min-height: 400px; 
+
+    width: 90vw;
+    height: 50vw;
+
+    /* background-color: aqua; */
+}
+
+.info_box{
+    padding: 15px;
+    margin: 5px;
+    text-align: left;
+    border-bottom: 3px dotted  rgb(122, 115, 115);
+}
+
+.info-time{
+    display: inline-block;
+    padding-bottom: 9px;
+    text-decoration: underline;
+}
+
+.info-title{
+    display: inline-block;
+    padding-bottom: 9px;
+    text-decoration: underline;
+}
+
+.info-Content{
+    padding-left: 40px;
+}

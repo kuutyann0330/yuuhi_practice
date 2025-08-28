@@ -1,0 +1,19 @@
+.title-marginbox {
+    
+    text-align: center;
+    margin: 40px 0;
+
+}
+
+.title-borderline {
+    margin: auto;
+    width: 400px;
+    height: 60px;
+    border-bottom: solid #cccccc;
+}
+
+.title_top {
+    width: auto;
+    font-size: 40px;
+    display: inline;
+}

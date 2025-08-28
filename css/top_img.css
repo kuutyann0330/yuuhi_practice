@@ -1,0 +1,123 @@
+/*文字を画像の上に持ってくるやつ　GPT*/
+.top_img-container {
+    margin: 0 auto;
+    max-width: 900px;
+    max-height: 500px;
+    /* ナビゲーションバーが崩れるラインで画像縮小をやめてモバイル版に変える */
+    min-width: 480px;
+    min-height: 267px;
+    width: 90vw;
+    height: 50vw;
+
+    position: relative;
+}
+
+.top_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+.overlay-text-box {
+    position: absolute;
+    /* 親要素（画像）の中で絶対位置に配置する */
+
+    top: 29%;
+    /* 縦位置（親要素の高さの45%）に配置 */
+
+    left: 28%;
+    /* 横位置（親要素の幅の31%）に配置 */
+
+    transform: translate(-50%, -50%);
+    /* 上下左右中央揃えにするテクニック */
+
+    /* background: rgba(183, 182, 182, 0.25); */
+    /* 半透明グレー背景。色、透明度を指定（黒なら rgba(0,0,0,0.25)） */
+
+    /* backdrop-filter: blur(4px); */
+    /* -webkit-backdrop-filter: blur(4px); */
+    /* 背景ぼかし（Safari対応もセット） */
+
+    border-radius: 10px;
+    /* 角丸10pxでやわらかい印象に */
+
+    padding: 15px 20px;
+    /* 内側余白（上下15px、左右20px） → ここを増やせば**高さ・幅**も広がる */
+
+    max-width: 510px;
+    /* 最大幅400pxまで。ここを変えれば横幅も調整可能 */
+
+    box-sizing: border-box;
+    /* padding含めたwidth/height計算にするCSSリセット対策 */
+
+    color: rgb(3, 27, 111);
+    /* 文字色は白 */
+
+    white-space: normal;
+    /* 自動改行OK（nowrapなら改行禁止） */
+
+    font-size: 20px;
+    /* 文字サイズ */
+
+    line-height: 1.4;
+    /* 行間 */
+
+    font-family: 'Harenosora Mincho', serif;
+    /* フォント指定。やさしい明朝体 */
+
+}
+
+
+/* もとの個別の .overlay-text.text03 などの位置指定は削除してください */
+
+.overlay-title-box {
+    font-size: 30px;
+    text-align: left;
+    /* 左揃え */
+    color: rgb(255, 255, 255);
+    /* 文字色は白 */
+
+}
+
+
+/* .text01 {
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    color: rgb(254, 254, 254);
+    font-size: 30px;
+    font-family: 'Harenosora Mincho', serif;
+}
+
+.text02 {
+    position: absolute;
+    top: 20%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    font-family: 'Harenosora Mincho', serif;
+} */
+
+
+
+
+.textBold {
+    font-size: 27px;
+    /* 文字の縁取り（黒） */
+    text-shadow:
+        1px 1px 0 white,
+        -1px 1px 0 white,
+        1px -1px 0 white,
+        -1px -1px 0 white;
+    font-weight: bold;
+
+    padding: 5px 5px;
+    text-shadow: 2px 4px 1px rgba(137, 151, 170, 0.7);
+}

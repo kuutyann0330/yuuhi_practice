@@ -1,0 +1,95 @@
+#main_menu {
+    /* トップ画像を真ん中に持ってくる */
+    text-align: center;
+}
+
+
+/*文字を画像の上に持ってくるやつ　GPT*/
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.top_img-container {
+    position: relative;
+    width: 90vw;
+    max-width: 900px;
+    height: 50vw;
+    max-height: 500px;
+
+    background-image: url('./HP_img/searchshop-top-img.jpg');
+    background-size: cover;
+    /* 画像を要素にフィットさせる */
+    background-position: center;
+    /* 画像の中心を表示 */
+    background-repeat: no-repeat;
+
+    margin: 0 auto;
+    /* 横中央寄せ */
+}
+/* トップ画面に関連する */
+.top_img-container {
+    text-align: center;
+}
+
+.top_img {
+    max-width: 900px;
+    max-height: 500px;
+
+    /* ナビゲーションバーが崩れるラインで画像縮小をやめてモバイル版に変える */
+    min-width: 480px;
+    min-height: 267px;
+
+    width: 90vw;
+    height: 50vw;
+}
+
+.top-contentsbox {
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+
+.top_img {
+    max-width: 900px;
+    max-height: 500px;
+
+    /* ナビゲーションバーが崩れるラインで画像縮小をやめてモバイル版に変える */
+    min-width: 480px;
+    min-height: 267px;
+
+    width: 90vw;
+    height: 50vw;
+}
+
+
+.title {
+    font-size: 30px;
+    padding: 30px 0px;
+    border-bottom: solid;
+
+}
+
+.contentbox {
+    margin: 10px 0;
+    padding: 85px 0;
+    text-align: center;
+}
+
+/* アイテムボックスの説明タイトル */
+.item_title {
+    font-size: 30px;
+    margin: 30px 0px;
+    padding: 10px 0px;
+
+    border-bottom: solid chartreuse;
+}

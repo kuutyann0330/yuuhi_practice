@@ -1,0 +1,71 @@
+/* 追随ナビゲーションバーの余白 */
+.nav-GlobalHeader {
+    padding: 30px 0 0;
+    width: 100%;
+
+    /* 上部固定用 */
+    /* position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000; */
+}
+
+/* #container {
+  padding-top: 150px;
+} */
+
+
+/*ヘッダー要素、企業ロゴname*/
+.logo_img{
+ margin-left: 15px;
+ width: auto;
+ max-width: 6%;
+ height: auto;
+ max-height: 5%;   
+}
+
+.logonames_img {
+    min-width: 90px;
+    width: 21.8%;
+    /* width: 218px; */
+
+    height: 3.8%;
+    /* height: 38px; */
+}
+
+/* 検索バー 時間があれば作る*/
+.search_container {
+    display: inline-block;
+    float: right;
+}
+
+nav {
+    text-align: center;
+    background-color: inherit;
+    /* 何の意味があるのかわからん調べとく */
+    margin-bottom: 20px;
+}
+
+.header-nav {
+    margin-top: 20px;
+
+}
+
+
+.li_nav:not(:last-child) {
+    border-right: 2px solid #ddd;
+
+}
+
+.li_nav {
+
+    display: inline-block;
+    width: 18%;
+    min-width: 90px;
+}
+
+header {
+    background-color: inherit;
+}
+
+

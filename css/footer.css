@@ -1,0 +1,35 @@
+#yuuhi_footer {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-top: solid black 2px;
+    width: auto;
+    height: 100px;
+}
+
+.footer-content {
+    display: block;
+    margin: auto;
+    text-align: left;
+    max-width: 900px;
+    min-width: 480px;
+    width: 90vw;
+    height: 60PX;
+}
+
+.footer_logo {
+    margin: auto;
+    width: 220px;
+    height: auto;
+    display: block;
+    font-size: small;
+}
+
+.footer-copy {
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+    display: block;
+    font-size: small;
+}
